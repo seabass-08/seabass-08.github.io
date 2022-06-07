@@ -20,5 +20,42 @@
             </div>
         </span>
     </div>
+    <div style="padding: 24px;">
+        <form>
+            <label for="clientInfo" class="lead"><b>Participant Information</b></label>
+            <div id="clientInfo" style="padding: 24px;">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" style="margin: 6px;">
+                    <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" style="margin: 6px;">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control input-group mb-3" placeholder="Email" aria-label="Email" style="margin: 6px;">
+                    <input type="text" class="form-control input-group mb-3" placeholder="Phone Number" aria-label="Phone" style="margin: 6px;">
+                </div>
+            </div>
+            <label for="apptInfo" class="lead"><b>Appointment Information</b></label>
+            <div id="apptInfo" style="padding: 24px;">
+                <label for="dateInfo" style="margin: 6px;">Appointment Date</label>
+                <div class="input-group mb-3" id="dateInfo">
+                    <input type="text" class="form-control" placeholder="Month" aria-label="Month" style="margin: 6px;">
+                    <input type="number" class="form-control" placeholder="Day" aria-label="Day" style="margin: 6px;">
+                    <input type="number" class="form-control" placeholder="Year" aria-label="Year" style="margin: 6px;">
+                </div>
+                <label for="appointmentType" style="margin: 6px;">Select Lesson Type</label>
+                <div class="input-group mb-3" style="margin: 6px;">
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="appointmentType">Selected Lesson Type:</label>
+                    </div>
+                    <select class="custom-select" id="appointmentType">
+                      <option selected>Select a Lesson</option>
+                      <option value="1">Skating Fundamentals</option>
+                      <option value="2">Power Skating</option>
+                      <option value="3">Figure Skating</option>
+                    </select>
+                  </div>
+            </div>
+            <a href="confirm.html" class="btn btn-primary" style="width: 94px; margin: 30px;">Submit</a>
+        </form>
+    </div>
 </body>
 </html>
