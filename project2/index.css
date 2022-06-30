@@ -1,0 +1,29 @@
+.header {
+    padding: 24px;
+    height: 144px;
+    text-align: left;
+    background: #00205B;
+    color: white;
+    font-size: 32px;
+}
+
+.description-box{
+    text-align: left;
+    padding: 24px;
+    background: #d0d0d0;
+}
+
+.textbox{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.filters{
+    display: inline-block;
+    width: 25%
+}
+
+.container{
+    display: inline-block;
+    width: 75%;
+}
